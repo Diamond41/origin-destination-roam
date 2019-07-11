@@ -1,0 +1,171 @@
+body {
+  background-color: lightblue;
+  font-family: "Raleway", Arial, sans-serif;
+  margin: auto;
+}
+
+h1, h4, p, a href{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  margin: auto;
+}
+
+.container-fluid {
+    padding-right:20px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left:0;
+    background-color: white;
+    width: auto;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, 
+.container > .navbar-header {
+    position: inherit;
+    width: auto;
+    height: 50px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent
+    
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.sr-only {
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px);
+    border: 0;
+}
+
+figcaption {
+    float: left;
+}
+
+figure {
+  float: left;
+  width: 50%;
+  background-color: yellow;
+  height: 200px; /* only for demonstration, should be removed */
+  border: 3px solid grey;
+}
+
+/* Clear floats after the columns */
+section {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  height: 300px;
+  border: 3px solid grey;
+  background-color: #f1f1f1;
+}
+
+article {
+  float: right;
+  padding: 10px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  border: 3px solid grey;
+}
+
+aside {
+  float: right;
+  padding: 10px;
+  width: 50%;
+  background-color: yellow;
+  height: 300px; /* only for demonstration, should be removed */
+  border: 3px solid grey;
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+     }
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  section, article, aside {
+    width: 50%;
+    height: auto;
+  }
+}
