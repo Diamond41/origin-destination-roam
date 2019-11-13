@@ -139,7 +139,6 @@ figure {
 
 /* Clear floats after the columns */
 section {
-  display: block;
   float: left;
   padding: 10px;
   width: 50%;
@@ -179,8 +178,7 @@ footer {
 }
 Inherited from body
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media screen and (max-aspect-ratio: 4/3) 
-and (max-width: 600px)
+@media screen and (max-width: 600px)
 and (min-width: 0){
   section, article, aside {
     width: 50%;
