@@ -42,6 +42,8 @@ header {
     
 }
 
+
+
 .navbar-default .navbar-collapse {
     border-color: transparent;
 }
@@ -108,7 +110,21 @@ header {
     clip: rect(0px, 0px, 0px);
     border: 0;
 }
+.venice-image-wrapper .static-layer{
+  postion: absolute;
+  background-position: center center;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 1;
+}
 
+.venice-image-wrapper .image-layer {
+  z-index: 5;
+}
 figcaption {
     float: left;
 }
