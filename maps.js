@@ -23,9 +23,9 @@ var marker = new google.maps.Marker({
 
 var infowindow = new google.maps.InfoWindow({
     content:
-     `<strong>Venice</strong>
+     '<strong>Venice</strong>
      <br>
-     del Bovolo, 4303<br>30124 Venezia VE Venezia<br>`});
+     del Bovolo, 4303<br>30124 Venezia VE Venezia<br>'});
  
    infowindow.open(map,marker);
 });
