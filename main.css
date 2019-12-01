@@ -178,8 +178,6 @@ aside {
 #googleMap {
   z-index: 3;
   position: absolute;
-  height: 100px;
-  width: 400px;
   padding: 0px;
   border-width: 0px;
   margin: 0px;
