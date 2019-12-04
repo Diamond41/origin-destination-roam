@@ -14,7 +14,16 @@ google.maps.event.addListener(marker,'click',function() {
     map.setCenter(marker.getPosition());
     window.setTimeout(function() {map.setZoom(pos);},3000);
 });
-
+  
+var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Venicw</h1>'+
+    '<div id="bodyContent">'+
+    	'<p>del Bovolo, 4303<br>30124 Venezia VE Venezia<br></p>'+
+      '</div>'+
+      '<div id="bodyContent">';
+    
 function placeMarker(map, location) {
 var marker = new google.maps.Marker({
     position: myCenter,
@@ -22,10 +31,8 @@ var marker = new google.maps.Marker({
 });
 
 var infowindow = new google.maps.InfoWindow({
-    content:
-    `<strong>Venice</strong>
-     <br>
-     del Bovolo, 4303<br>30124 Venezia VE Venezia<br>`});
- 
+    content:contentString});
+ marker.addListener('click', function() {  
    infowindow.open(map,marker);
+ });
 }
