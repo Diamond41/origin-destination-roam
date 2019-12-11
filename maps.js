@@ -5,9 +5,8 @@ function myMap(){
    mapTypeId: google.maps.MapTypeId.HYBRID
 };
     
-var map = new
-google.maps.Map(document.getElementById("googleMap"),mapProp);
-
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
 
 google.maps.event.addListener(marker,'click',function() {
     map.setZoom(9);
@@ -23,7 +22,7 @@ var contentString = '<div id="content">'+
     	'<p>del Bovolo, 4303<br>30124 Venezia VE Venezia<br></p>'+
       '</div>'+
       '<div id="bodyContent">';
-    
+}    
 function placeMarker(map, location) {
 var marker = new google.maps.Marker({
     position: myCenter,
