@@ -175,7 +175,7 @@ aside {
   border: 3px solid grey;
 }
 
-#myMap {
+#map {
   url("https://maps.googleapis.com/maps/api/js?key=AlzaSyByhQAejtd6cXcZQ6n8eWITpOEnk6DK88&callback=myMap");
   z-index: 3;
   position: absolute;
