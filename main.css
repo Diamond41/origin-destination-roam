@@ -135,8 +135,6 @@ figure {
 }
 .flex-container {
   display: flex;
-  height: 150px;
-  width:150px;
   flexi-wrap: wrap;
   background-color: DodgerBlue;
 }
