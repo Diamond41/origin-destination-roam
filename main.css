@@ -137,6 +137,7 @@ figure {
   display: flex;
   flex-wrap: nowrap;
   justify-content:space-around;
+  height: 200px;
   background-color: DodgerBlue;
 }
 
