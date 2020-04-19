@@ -139,7 +139,7 @@ figure {
   -webkit-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
-  width: 350px;
+  width: 400px;
   height: 250px;
   background-color: DodgerBlue;
 }
