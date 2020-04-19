@@ -139,7 +139,7 @@ figure {
   -webkit-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 500px;
   height: 250px;
   background-color: DodgerBlue;
 }
@@ -147,7 +147,7 @@ figure {
 .flex-item {
   background-color: #f1f1f1;
   width: 100px;
-  height: 100px;
+  height: 150px;
   margin: 10px;
   texyt-align: center;
   line-height: 75px;
