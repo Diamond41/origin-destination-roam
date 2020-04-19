@@ -134,14 +134,17 @@ figure {
   border: 3px solid grey;
 }
 .flex-container {
+  display: -webkit-flex;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content:space-around;
-  height: 200px;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
   background-color: DodgerBlue;
 }
 
-.flex-container > div{
+.flex-item {
   background-color: #f1f1f1;
   width: 100px;
   height: 100px;
