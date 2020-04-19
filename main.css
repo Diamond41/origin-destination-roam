@@ -136,7 +136,6 @@ figure {
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  height: 200px;
   justify-content:space-around;
   background-color: DodgerBlue;
 }
