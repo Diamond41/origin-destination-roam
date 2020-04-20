@@ -1,13 +1,3 @@
-function myMap(){
-  var mapProp={ 
-   center:new google.maps.LatLng(53.1659,-1.2612000000000307),
-   zoom:12,
-   mapTypeId: google.maps.MapTypeId.HYBRID
-};
-    
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-
 google.maps.event.addListener(marker,'click',function() {
     map.setZoom(9);
     map.setCenter(marker.getPosition());
