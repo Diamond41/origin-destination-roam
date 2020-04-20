@@ -60,8 +60,7 @@
          </p>
         <div class="row">
         <div class="col-sm-4">
-       <div id="map"> 
-        </div>
+        <div id="map"></div>
         </div>
         </div>    
         </article>
@@ -81,13 +80,20 @@
          src="Venicehotel.jpg" alt="Venice"> 
         <figcaption>Fig1. - Venicehotel, Italy.</figcaption>
         </article>
-  <footer>
-    <p></p>
-    </footer>
-   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markclusterer.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AlzaSyByhQAejtd6cXcZQ6n8eWITpOEnk6DK88&callback=myMap"></script>
-   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-   <script src="maps.js"></script>
+        <footer>
+        <p></p>
+        </footer>
+       <script function initMap(){
+        let venice = {lat: 53.1659, lng: -1.26120};  
+        let map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: venice}
+        );
+        let marker = new google.maps.Marker({postion: venice, map: map})};
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AlzaSyByhQAejtd6cXcZQ6n8eWITpOEnk6DK88&callback=myMap"></script>
+        <script async defer src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markclusterer.js"></script>
+        <script async defer src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script async defer src="maps.js"></script>
+        </style>
                                             
 </body>
 </html>
