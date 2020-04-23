@@ -149,7 +149,7 @@ article {
 }
 
 aside {
-  float: left;
+  float: right;
   padding: 10px;
   width: 50%;
   background-color: yellow;
