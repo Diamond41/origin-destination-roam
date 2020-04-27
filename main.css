@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   font-family: "Raleway", Arial, sans-serif;
+  box-sizing: border-box;
   margin: auto;
 }
 
@@ -105,10 +106,6 @@ header {
     overflow: hidden;
     clip: rect(0px, 0px, 0px);
     border: 0;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .column {
