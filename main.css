@@ -166,6 +166,7 @@ article {
 }
 
 aside {
+  float: left;
   padding: 10px;
   width: 50%;
   background-color: yellow;
