@@ -107,6 +107,23 @@ header {
     border: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.col-sm-4 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
