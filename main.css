@@ -108,6 +108,10 @@ header {
     border: 0;
 }
 
+.img {
+  float: right;
+}
+
 .column {
   float: left;
   width: 33.33%;
