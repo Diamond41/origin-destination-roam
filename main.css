@@ -121,7 +121,7 @@ img {
 
 /* Clearfix (clear floats) */
 .row, p::after {
-  text-align: right;
+  align-self: right;
   display: table;
 }
 /*
