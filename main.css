@@ -112,10 +112,6 @@ img {
   position: relative;
 }
 
-.column, p{
-  text-align: right;
-}
-
 .column {
   float: left;
   width: 33.33%;
@@ -125,7 +121,7 @@ img {
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: "";
+  text-align: right;
   clear: both;
   display: table;
 }
