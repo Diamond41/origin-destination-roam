@@ -120,9 +120,8 @@ img {
 }
 
 /* Clearfix (clear floats) */
-.row::after {
+.row, p::after {
   text-align: right;
-  clear: both;
   display: table;
 }
 /*
