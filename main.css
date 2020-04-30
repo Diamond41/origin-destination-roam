@@ -112,6 +112,10 @@ img {
   position: relative;
 }
 
+.column, p{
+  text-align: right;
+}
+
 .column {
   float: left;
   width: 33.33%;
