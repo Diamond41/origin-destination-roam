@@ -112,7 +112,7 @@ img {
   position: relative;
 }
 
-.column {
+.col-md-4 {
   float: left;
   width: 33.33%;
   padding: 5px;
@@ -120,9 +120,10 @@ img {
 }
 
 /* Clearfix (clear floats) */
-.row, p::after {
-  align-self: right;
-  display: table;
+.row {
+    margin: 5px;
+    width: 100%;
+    height: auto;
 }
 /*
 .sticky {
