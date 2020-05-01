@@ -133,7 +133,8 @@ img {
 } */
 
 figcaption {
-    float: right;
+    float: left;
+    margin: 10px;
 }
 
 figure {
