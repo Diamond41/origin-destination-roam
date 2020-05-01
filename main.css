@@ -112,13 +112,6 @@ img {
   position: relative;
 }
 
-.col-md-4 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin: 1px;
-}
-
 /* Clearfix (clear floats) */
 .row {
     margin: 5px;
