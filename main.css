@@ -115,6 +115,7 @@ img {
 
 .row {
     display: flex;
+    margin-right:50px;
 }
 
 /* Create three equal columns that sits next to each other */
