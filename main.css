@@ -151,7 +151,7 @@ section {
   float: left;
   padding: 10px;
   width: 50%;
-  height: 300px;
+  height: 350px;
   position: relative;
   border: 3px solid grey;
   background-color: #f1f1f1;
@@ -172,20 +172,20 @@ aside {
   padding: 10px;
   width: 50%;
   background-color: yellow;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 350px; /* only for demonstration, should be removed */
   border: 3px solid grey;
   position: relative;
 }
 
 #map {
   z-index: 3;
-  position: absolute;
+  position: fixed;
   padding: 0px;
   border-width: 0px;
   margin: 0px;
-  left: 0px;
-  top: 125px;
-  width:300px;
+  margin-left: 0px;
+  margin-top: 125px;
+  width:200px;
   touch-action: pan-x pan-y;
  }
 
