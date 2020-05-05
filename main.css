@@ -122,6 +122,10 @@ img {
   flex: 33.33%;
   padding: 5px;
 }
+
+.column img {
+  margin-top: 50px;
+}
 /*
 .sticky {
   position: -webkit-sticky;
