@@ -162,7 +162,7 @@ article {
   padding: 10px;
   width: 50%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 350px; /* only for demonstration, should be removed */
   border: 3px solid grey;
   position: relative;
 }
