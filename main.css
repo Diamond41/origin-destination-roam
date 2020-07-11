@@ -112,7 +112,10 @@ img {
   display: block;
   margin: 1px;
 }
-
+.responsive {
+  width: 100%;
+  height: auto;
+}
 .row {
     display: flex;
 }
